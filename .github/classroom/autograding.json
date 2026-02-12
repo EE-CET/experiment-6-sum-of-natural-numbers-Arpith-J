@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Example Case (N=5)",
+      "setup": "javac src/SumOfNaturalNumbers.java",
+      "run": "java -cp src SumOfNaturalNumbers",
+      "input": "5",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Smallest Natural Number (N=1)",
+      "setup": "javac src/SumOfNaturalNumbers.java",
+      "run": "java -cp src SumOfNaturalNumbers",
+      "input": "1",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Medium Number (N=10)",
+      "setup": "javac src/SumOfNaturalNumbers.java",
+      "run": "java -cp src SumOfNaturalNumbers",
+      "input": "10",
+      "output": "55",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Large Number (N=100)",
+      "setup": "javac src/SumOfNaturalNumbers.java",
+      "run": "java -cp src SumOfNaturalNumbers",
+      "input": "100",
+      "output": "5050",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Larger Number (N=2000)",
+      "setup": "javac src/SumOfNaturalNumbers.java",
+      "run": "java -cp src SumOfNaturalNumbers",
+      "input": "2000",
+      "output": "2001000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
